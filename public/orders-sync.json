@@ -1,0 +1,57 @@
+{
+  "orders": [
+    {
+      "id": "1",
+      "customerName": "João Silva",
+      "customerPhone": "(13) 99999-1111",
+      "items": [
+        {
+          "product": {
+            "id": "1",
+            "name": "Pizza Margherita",
+            "description": "Molho, mussarela e manjericão",
+            "price": 45.9,
+            "priceSmall": 32.9,
+            "category": "pizzas",
+            "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400",
+            "isActive": true,
+            "isFeatured": true,
+            "stock": 999,
+            "preparationTime": 30
+          },
+          "quantity": 2
+        }
+      ],
+      "total": 91.8,
+      "status": "Pendente",
+      "createdAt": "2025-12-09T16:32:14.219Z"
+    },
+    {
+      "id": "2",
+      "customerName": "Maria Santos",
+      "customerPhone": "(13) 99999-2222",
+      "items": [
+        {
+          "product": {
+            "id": "2",
+            "name": "Pizza Calabresa",
+            "description": "Molho, mussarela e calabresa",
+            "price": 48.9,
+            "priceSmall": 35.9,
+            "category": "pizzas",
+            "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=400",
+            "isActive": true,
+            "isFeatured": false,
+            "stock": 999,
+            "preparationTime": 30
+          },
+          "quantity": 1
+        }
+      ],
+      "total": 48.9,
+      "status": "Preparando",
+      "createdAt": "2025-12-09T16:32:14.220Z"
+    }
+  ],
+  "lastSync": "2025-12-09T18:27:15.223Z"
+}

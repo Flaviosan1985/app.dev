@@ -1,0 +1,67 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "name": "João Silva",
+      "phone": "(13) 99999-1111",
+      "email": "joao@email.com",
+      "address": "Rua das Flores, 123, Centro, São Vicente - SP",
+      "addressDetails": {
+        "street": "Rua das Flores",
+        "number": "123",
+        "complement": "Apto 45",
+        "neighborhood": "Centro",
+        "city": "São Vicente",
+        "state": "SP",
+        "zipCode": "11310-000",
+        "reference": "Próximo ao mercado"
+      },
+      "orderHistory": [
+        "1"
+      ],
+      "totalSpent": 250,
+      "lastOrderDate": "2025-12-07T16:32:14.220Z"
+    },
+    {
+      "id": "2",
+      "name": "Maria Santos",
+      "phone": "(13) 99999-2222",
+      "email": "maria@email.com",
+      "address": "Av. Presidente Wilson, 456, Gonzaga, Santos - SP",
+      "addressDetails": {
+        "street": "Av. Presidente Wilson",
+        "number": "456",
+        "complement": "Casa",
+        "neighborhood": "Gonzaga",
+        "city": "Santos",
+        "state": "SP",
+        "zipCode": "11065-000",
+        "reference": "Próximo à praia"
+      },
+      "orderHistory": [
+        "2"
+      ],
+      "totalSpent": 180,
+      "lastOrderDate": "2025-12-08T16:32:14.220Z"
+    },
+    {
+      "id": "3",
+      "name": "Pedro Costa",
+      "phone": "(13) 98888-3333",
+      "email": "pedro@email.com",
+      "address": "Rua São Paulo, 789, Vila Mathias, Santos - SP",
+      "addressDetails": {
+        "street": "Rua São Paulo",
+        "number": "789",
+        "neighborhood": "Vila Mathias",
+        "city": "Santos",
+        "state": "SP",
+        "zipCode": "11015-000"
+      },
+      "orderHistory": [],
+      "totalSpent": 0,
+      "lastOrderDate": null
+    }
+  ],
+  "lastSync": "2025-12-09T18:27:15.223Z"
+}

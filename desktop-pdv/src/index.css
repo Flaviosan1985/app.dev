@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ====== FONTE MAIOR, MODERNA E PROFISSIONAL 2025/2026 ====== */
+html, body, #root {
+  font-family: 'Inter', 'Segoe UI', Roboto, system-ui, sans-serif !important;
+  font-size: 16px !important;        /* base maior (antes era 14px) */
+  line-height: 1.5 !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.012em !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Textos normais */
+* {
+  @apply text-base;                   /* 16px */
+}
+
+/* Labels, inputs, botões */
+label, input, textarea, button, select {
+  @apply text-base font-medium;
+}
+
+/* Títulos no carrinho e seções */
+h1, h2, h3, h4, h5, .text-lg, .font-bold {
+  @apply text-xl font-semibold tracking-tight;
+}
+
+/* Preços e valores importantes */
+.text-price, .font-mono, [class*="text-"], .total-price {
+  @apply text-2xl font-bold tracking-tight;
+}
+
+/* Botões grandes (Retirada, Delivery, Finalizar, etc.) */
+button.px-6, button.py-3, .btn-large {
+  @apply text-lg font-semibold;
+}
+
+/* Itens do carrinho e produtos */
+.cart-item, .product-card {
+  @apply text-base font-medium;
+}
+
+.material-icons-round {
+  font-family: 'Material Icons Round' !important;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
